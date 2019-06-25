@@ -20,5 +20,7 @@ driver.find_element_by_xpath("/html/body/div[3]/div/div/div[1]/div/div/div/div/d
 driver.get_screenshot_as_file("C:\ForJenkins\测试jenkins%s.png"% datetime.datetime.now().strftime('%Y%m%d.%H%M%S.%f')[:-3])
 time.sleep(2)
 driver.back()
-time.sleep(2)
+time.sleep(3)
 driver.quit()
+
+
